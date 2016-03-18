@@ -1,0 +1,112 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:300,500,700);
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    color: #333;
+}
+
+body {
+    background: url("../img/point_reyes_1920x1280.jpg") fixed;
+    background-size: cover;
+    text-align: center;
+}
+
+body:before {
+    content: "";
+    display: inline-block;
+    height: 50%;
+}
+
+main {
+    width: 90%;
+    margin: 5% 0;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.card {
+    padding: 40px 10px 10px;
+
+    border-radius: 2px;
+    background: #fff;
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);
+    -moz-box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);
+}
+
+p {
+    margin: 15px 0 0;
+    padding: 0;
+    text-align: center;
+}
+
+p:first-of-type {
+    margin: 0 auto;
+}
+
+.me {
+    width: 96px;
+    height: 96px;
+    margin: 0 auto;
+
+    border-radius: 50%;
+    background: url("../img/me.jpg");
+    background-size: cover;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.links {
+    font-size: 0;
+}
+
+.links img {
+    height: 32px;
+    padding: 8px;
+    margin: 0 8px;
+    border-radius: 12px;
+}
+
+.links img:hover {
+    background: #ccc;
+}
+
+.skills {
+    padding-top: 10px;
+    font-size: 14px;
+    text-align: left;
+    line-height: 38px;
+    border-top: 1px solid #e3e3e3;
+}
+
+.skills > a {
+    margin: 0 4px;
+    padding: 6px 10px;
+    background: #e0e0e0;
+    border-radius: 12px;
+    color: #333;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.skills > a:hover {
+    background: #767577;
+    color: #fff;
+}
+
+.skills > a i {
+    font-weight: 300;
+}
